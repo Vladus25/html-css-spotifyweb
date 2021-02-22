@@ -330,7 +330,7 @@ hr:not([size]){
   position: relative;
   border-radius: 30px;
   height: 4px;
-  width: 8vw;
+  width: 6vw;
   margin-top: 5px;
 }
 
@@ -339,7 +339,7 @@ hr:not([size]){
   bottom: 0;
   left: 0;
   background: white;
-  width: 2vw;
+  width: 1.5vw;
   height: 4px;
   border-radius: 30px;
 }
