@@ -13,7 +13,13 @@ hr{
 ol, ul{
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
+
+h6{
+  margin-bottom: 0;
+}
+
 
 /* Colore */
 
@@ -53,6 +59,11 @@ ol, ul{
   margin-top: 10px;
   color: white;
   padding-bottom: 20px;
+}
+
+.center li a:last-child{
+  line-height: 25px;
+  text-align: center;
 }
 
 .misura{
@@ -120,17 +131,19 @@ hr:not([size]){
   background-color: rgb(163, 163, 163);
   border: 1px solid;
   border-radius: 50%;
-  padding: 5px;
+  padding: 9px;
 }
 
-#img-profile img{
-  max-width: 20px;
-  max-height: 20px;
+
+.nav-basso ul li{
+  display: inline-block;
 }
 
 #text-john{
   color: white;
   font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 /* Menu */
@@ -166,4 +179,167 @@ hr:not([size]){
   background-color: rgb(40, 40, 40);
   height: 90px;
   z-index: 1151;
+}
+
+.footer-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 90px;
+}
+
+/* Canzone */
+
+.canzone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.canzone img{
+  max-width: 60px;
+  max-height: 60px;
+  margin: 0 10px;
+
+}
+
+.canzone ul li{
+  display: inline-block;
+  color: rgb(163, 163, 163);
+}
+
+.canzone ul li a{
+  color: rgb(163, 163, 163);
+  text-decoration: none;
+}
+
+.canzone ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.canzone i{
+  color: rgb(163, 163, 163);
+}
+
+.padding-can-fix{
+  padding-left: 30px;
+}
+
+/* Play */
+
+.play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  flex-basis: 50%;
+}
+
+.play ul li{
+  display: inline-block;
+}
+
+.play ul{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.play i{
+  color: white;
+}
+
+.block{
+  display: block;
+}
+
+.play-linea{
+  background-color: rgb(163, 163, 163);
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  height: 4px;
+  width: 20vw;
+  margin: 5px 5px;
+}
+
+.play-linea-bianca{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  width: 4vw;
+  height: 4px;
+  border-radius: 30px;
+}
+
+.timer h6{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.play i{
+  font-size: 16px;
+  padding: 0 10px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fix-circle i{
+  font-size: 30px;
+}
+
+/* Volume */
+
+.volume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.volume ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.volume ul li i{
+  color: white;
+  font-size: 12px;
+}
+
+.volume ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.volume i{
+  color: rgb(163, 163, 163);
+}
+
+.volume-linea{
+  background-color: rgb(163, 163, 163);
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  height: 4px;
+  width: 8vw;
+  margin-top: 5px;
+}
+
+.volume-linea-bianca{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  width: 2vw;
+  height: 4px;
+  border-radius: 30px;
 }

@@ -19,19 +19,19 @@
           <div class="colonna-nav">
             <div class="colonna-1">
               <div class="fix-home">
-                <img id="img-logo" src="img/logo.svg" alt="Logo">
+                <a href="#"><img id="img-logo" src="img/logo.svg" alt="Logo"></a>
                 <div class="misura">
-                  <ul>
+                  <ul class="center">
                     <li>
-                      <img src="img/home.svg" alt="Home">
+                      <a href="#"><img src="img/home.svg" alt="Home"></a>
                       <a href="#">Home</a>
                     </li>
                     <li>
-                      <img src="img/search.svg" alt="Home">
+                      <a href="#"><img src="img/search.svg" alt="Home"></a>
                       <a href="#">Cerca</a>
                     </li>
                     <li>
-                      <img src="img/libreria.svg" alt="Home">
+                      <a href="#"><img src="img/libreria.svg" alt="Home"></a>
                       <a href="#">La tua libreria</a>
                     </li>
                   </ul>
@@ -64,8 +64,11 @@
                 <a href="#"><img src="img/download.svg" alt="Download"></a>
                 <a href="#">Intstalla app</a>
                 <hr>
-                <a id="img-profile" href="#"><img src="img/profile.svg" alt="Profile"></a>
-                <a id="text-john" href="#">John Doe</a>
+                <ul>
+                  <li><a id="img-profile" href="#"><img src="img/profile.svg" alt="Profile"></a></li>
+                  <li><h4 id="text-john" href="#">John Doe</h4></li>
+                </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -106,7 +109,49 @@
 
     <!-- Footer -->
     <footer class="fixed-bottom back-color-footer">
-      <div class="">
+      <div class="footer-nav">
+
+        <!-- Canzone -->
+        <div class="canzone">
+          <ul>
+            <li><img src="img/sinister.jpeg" alt="Sinister"></li>
+            <li>
+              <h6 class="white"><strong>Sinister</strong></h6>
+              <a href="#"><h6>Brano Nome</h6></a>
+            </li>
+            <li class="padding-can-fix">
+              <h6><a href="#"><i class="far fa-heart"></i></a></h6>
+              <h6><a href="#"><i class="far fa-folder"></i></a></h6>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Play -->
+        <div class="play">
+          <ul>
+            <li><a href="#"><i class="fab fa-mixer"></i></a></li>
+            <li><a href="#"><i class="fas fa-step-backward"></i></a></li>
+            <li><a class="fix-circle" href="#"><i class="far fa-play-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-step-forward"></i></a></li>
+            <li><a href="#"><i class="fas fa-redo-alt"></i></a></li>
+          </ul>
+
+          <ul class="timer">
+            <li><h6>0:25</h6></li>
+            <li class="play-linea"><span class="play-linea-bianca"></span></li>
+            <li><h6>4:35</h6></li>
+          </ul>
+        </div>
+
+        <!-- Volume -->
+        <div class="volume">
+          <ul>
+            <li><a href="#"><i class="fas fa-list"></i></a></li>
+            <li><a href="#"><i class="fas fa-desktop"></i></a></li>
+            <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
+            <li class="volume-linea"><span class="volume-linea-bianca"></span></li>
+          </ul>
+        </div>
 
       </div>
     </footer>
