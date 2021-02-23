@@ -125,6 +125,10 @@ h6{
   color: white;
 }
 
+.hover-white a{
+  display: inline-block;
+}
+
 .bordo-piu:hover{
   border-color: white;
   background-color: white;
@@ -132,13 +136,8 @@ h6{
 
 /* 3 parte nav */
 
-/* .playlist-text{
-  min-height: 100px;
-  max-height: 200px;
-} */
-
-.playlist-text a{
-  display: block;
+.playlist-text{
+  flex-grow: 1;
 }
 
 .playlist-text a:hover{
@@ -146,6 +145,9 @@ h6{
 }
 
 .playlist-text ul{
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
   list-style-type: none;
   overflow-y: auto;
   height: 28vh;
@@ -153,7 +155,6 @@ h6{
 
 .colonna-nav{
   display:flex;
-  justify-content: space-between;
   flex-direction: column;
   height: calc(100vh - 100px);
 }

@@ -107,7 +107,7 @@
 
 }
 
-@media all and (max-height: 670px) {
+/* @media all and (max-height: 670px) {
   .playlist-text ul{
     height: 25vh;
   }
@@ -135,4 +135,4 @@
   .playlist-text ul{
     height: 17vh;
   }
-}
+} */
