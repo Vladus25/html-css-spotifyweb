@@ -162,6 +162,8 @@ hr:not([size]){
   background-color: rgb(20, 25, 30);
   width: calc(100% - 232px);
   margin-left: 232px;
+  height: calc(100% - 100px);
+  margin-bottom: 90px;
 }
 
 /* Upgrade fisso */
@@ -250,6 +252,7 @@ hr:not([size]){
 
 .recently-played li{
   flex-basis: 15%;
+  position: relative;
 }
 
 .recently-played li img{
@@ -298,7 +301,6 @@ hr:not([size]){
 
 .artist-popolar{
   display: flex;
-  margin-bottom: 90px;
 }
 
 .artist-popolar li{
@@ -318,6 +320,44 @@ hr:not([size]){
   padding-top: 10px;
   font-size: 18px;
   text-align: center;
+}
+
+/* Play-over */
+
+.play-over{
+  position: relative;
+}
+
+.play-over:hover .play-absolute {
+  opacity: 1;
+}
+
+
+.play-absolute {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.testo-play {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-rotondo{
+  border-radius: 50%;
 }
 
 /* Footer */
