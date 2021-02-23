@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Spotify</title>
   </head>
   <body>
@@ -20,6 +21,7 @@
             <div class="colonna-1">
               <div class="fix-home">
                 <a href="#"><img id="img-logo" src="img/logo.svg" alt="Logo"></a>
+                <a id="img-logo-small" href="#"><img src="img/logo-small.svg" alt="Logo-small"></a>
                 <div class="misura">
                   <ul class="center">
                     <li class="linea-verde-nav">
@@ -95,25 +97,20 @@
             <a href="#">IN EVIDENZA</a>
             <span></span>
           </li>
-          <li class="linea-verde-menu">
+          <li>
             <a href="#">PODCAST</a>
-            <span></span>
           </li>
-          <li class="linea-verde-menu">
+          <li>
             <a href="#">CLASSIFICHE</a>
-            <span></span>
           </li>
-          <li class="linea-verde-menu">
+          <li>
             <a href="#">GENERI E MOOD</a>
-            <span></span>
           </li>
-          <li class="linea-verde-menu">
+          <li>
             <a href="#">NUOVE USCITE</a>
-            <span></span>
           </li>
-          <li class="linea-verde-menu">
+          <li>
             <a href="#">SCOPRI</a>
-            <span></span>
           </li>
         </ul>
       </section>
@@ -251,8 +248,8 @@
               <a class="hover-brano" href="#"><h6>Brano Nome</h6></a>
             </li>
             <li class="padding-can-fix">
-              <h6><a href="#"><i class="far fa-heart"></i></a></h6>
-              <h6><a href="#"><i class="far fa-folder"></i></a></h6>
+              <a href="#"><i class="far fa-heart"></i></a>
+              <a href="#"><i class="far fa-folder"></i></a>
             </li>
           </ul>
         </div>
@@ -271,7 +268,7 @@
             <li><h6>0:25</h6></li>
             <li class="play-linea">
               <span class="play-linea-bianca"></span>
-              <i class="fas fa-circle play-pallino-bianco"></i>
+              <!-- <i class="fas fa-circle"></i> -->
             </li>
             <li><h6>4:35</h6></li>
           </ul>
@@ -285,7 +282,7 @@
             <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
             <li class="volume-linea">
               <span class="volume-linea-bianca"></span>
-              <i class="fas fa-circle volume-pallino-bianco"></i>
+              <!-- <i class="fas fa-circle"></i> -->
             </li>
           </ul>
         </div>

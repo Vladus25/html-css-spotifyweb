@@ -3,13 +3,34 @@
 /* Media per MD */
 
 @media screen and (max-width:992px) {
+  .recently-played li{
+    flex-basis: 25%;
+  }
+
+  .creato-john li{
+    flex-basis: 25%;
+  }
+
+  .artist-popolar li{
+    flex-basis: 25%;
+  }
 
 }
 
 /* Media per SM */
 
 @media screen and (max-width: 768px){
+  .recently-played li{
+    flex-basis: 50%;
+  }
 
+  .creato-john li{
+    flex-basis: 50%;
+  }
+
+  .artist-popolar li{
+    flex-basis: 50%;
+  }
 
 }
 
@@ -18,5 +39,119 @@
 
 @media screen and (max-width: 576px){
 
+  /* Menu */
+  .hover-white{
+    display: none;
+  }
 
+  .playlist-text{
+    display: none;
+  }
+
+  .colonna-1 .white{
+    display: none;
+  }
+
+  /* Nav */
+  .nav-basso{
+    display: none;
+  }
+
+  .linea-verde-nav a:last-child{
+    display: none;
+  }
+
+  #back-color-main{
+    background-color: rgb(20, 25, 30);
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    height: calc(100% - 100px);
+    margin-bottom: 90px;
+  }
+
+  .back-color-nav{
+    width: 50px;
+  }
+
+  .padding-nav{
+    padding: 0;
+  }
+
+  .colonna-nav{
+    text-align: center;
+  }
+
+  #img-logo{
+    display: none;
+  }
+
+  #img-logo-small{
+    display: block;
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 13px;
+  }
+
+  .colonna-1 {
+    text-align: center;
+  }
+
+  /* Footer */
+
+  .padding-can-fix{
+    padding-left: 3px;
+  }
+
+  .canzone img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0 10px;
+  }
+
+  .canzone h6{
+    font-size: 0.7rem;
+  }
+
+  .play i{
+    padding: 0 7px;
+  }
+
+  .play li i{
+    font-size: 16px;
+  }
+
+  .volume ul li{
+    padding: 0 7px;
+  }
+
+}
+
+@media all and (max-height: 670px) {
+  .playlist-text ul{
+    height: 25vh;
+  }
+}
+
+@media all and (max-height: 650px) {
+  .playlist-text ul{
+    height: 23vh;
+  }
+}
+
+@media all and (max-height: 630px) {
+  .playlist-text ul{
+    height: 21vh;
+  }
+}
+
+@media all and (max-height: 610px) {
+  .playlist-text ul{
+    height: 19vh;
+  }
+}
+
+@media all and (max-height: 595px) {
+  .playlist-text ul{
+    height: 17vh;
+  }
 }

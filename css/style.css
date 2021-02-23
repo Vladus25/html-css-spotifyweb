@@ -61,6 +61,10 @@ h6{
   padding-bottom: 20px;
 }
 
+#img-logo-small{
+  display: none
+}
+
 .center li a:last-child{
   line-height: 25px;
   text-align: center;
@@ -128,6 +132,11 @@ h6{
 
 /* 3 parte nav */
 
+/* .playlist-text{
+  min-height: 100px;
+  max-height: 200px;
+} */
+
 .playlist-text a{
   display: block;
 }
@@ -138,6 +147,8 @@ h6{
 
 .playlist-text ul{
   list-style-type: none;
+  overflow-y: auto;
+  height: 28vh;
 }
 
 .colonna-nav{
@@ -212,6 +223,7 @@ hr:not([size]){
 #upgrade-text:hover{
   font-size: 16px;
 }
+
 /* Navigazione menu */
 
 .pad-footer-top{
@@ -228,6 +240,7 @@ hr:not([size]){
   padding-top: 105px;
   padding-bottom: 10px;
   flex-wrap: wrap;
+  line-height: 50px;
 }
 
 .menu-nav-principale li{
@@ -249,17 +262,15 @@ hr:not([size]){
   color: white;
 }
 
-.linea-verde-menu:hover{
+.linea-verde-menu{
   position: relative;
-  width: 150px;
   text-align: center;
-
 }
 
 .linea-verde-menu span{
   position: absolute;
-  top: 25px;
-  left: 60px;
+  top: 40px;
+  left: 40px;
   background: rgb(31, 255, 47);
   width: 30px;
   height: 3px;
@@ -272,7 +283,7 @@ hr:not([size]){
 
 .recently-played{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -283,6 +294,7 @@ hr:not([size]){
 .recently-played li{
   flex-basis: 15%;
   position: relative;
+  padding-right: 30px;
 }
 
 .recently-played li img{
@@ -301,6 +313,7 @@ hr:not([size]){
   font-weight: bold;
   color: rgb(163, 163, 163);
   font-size: 14px;
+  padding: 10px 0;
 }
 
 /* Creato per John Doe */
@@ -311,7 +324,7 @@ hr:not([size]){
 
 .creato-john li{
   flex-basis: 15%;
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 .creato-john li img{
@@ -335,7 +348,7 @@ hr:not([size]){
 
 .artist-popolar li{
   flex-basis: 15%;
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 .artist-popolar li img{
@@ -508,16 +521,6 @@ hr:not([size]){
   background: green;
 }
 
-.play-pallino-bianco{
-  position: absolute;
-  bottom: 18px;
-  left: 35px;
-  color: white;
-  width: 4vw;
-  height: 5px;
-}
-
-
 .timer h6{
   color: white;
   font-size: 12px;
@@ -591,13 +594,4 @@ hr:not([size]){
 
 .volume-linea-bianca:hover{
   background: green;
-}
-
-.volume-pallino-bianco{
-  position: absolute;
-  bottom: 0;
-  left: 23px;
-  top: -4px;
-  color: white;
-
 }
