@@ -220,12 +220,14 @@ hr:not([size]){
 
 .linea-verde-menu:hover{
   position: relative;
+  width: 150px;
+  text-align: center;
 }
 
 .linea-verde-menu span{
   position: absolute;
   top: 25px;
-  left: 40px;
+  left: 60px;
   background: rgb(31, 255, 47);
   width: 30px;
   height: 3px;
