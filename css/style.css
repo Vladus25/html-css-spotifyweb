@@ -520,6 +520,22 @@ hr:not([size]){
   background: green;
 }
 
+.pallina-bianca{
+  display: none;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.play-linea-bianca:hover .pallina-bianca, .volume-linea-bianca:hover .pallina-bianca{
+  display: block;
+}
+
+
 .timer h6{
   color: white;
   font-size: 12px;
@@ -577,7 +593,7 @@ hr:not([size]){
   position: relative;
   border-radius: 30px;
   height: 4px;
-  width: 6vw;
+  width: 8vw;
   margin-top: 5px;
 }
 
@@ -586,7 +602,7 @@ hr:not([size]){
   bottom: 0;
   left: 0;
   background: white;
-  width: 1.5vw;
+  width: 2vw;
   height: 4px;
   border-radius: 30px;
 }
