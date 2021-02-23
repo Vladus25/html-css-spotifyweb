@@ -53,8 +53,29 @@
   }
 
   /* Nav */
+
   .nav-basso{
+    text-align: center;
+  }
+  .nav-basso hr{
     display: none;
+  }
+
+  .nav-basso #text-john{
+    display: none;
+  }
+
+  .non-exist{
+    display: none;
+  }
+
+  #img-profile{
+    margin-right: 18px;
+  }
+
+  .toping{
+    margin-bottom: 10px;
+    margin-right: 5px;
   }
 
   .linea-verde-nav a:last-child{

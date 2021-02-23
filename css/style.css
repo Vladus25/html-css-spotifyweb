@@ -292,9 +292,9 @@ hr:not([size]){
 }
 
 .recently-played li{
-  flex-basis: 15%;
+  flex-basis: 16%;
   position: relative;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .recently-played li img{
@@ -323,8 +323,8 @@ hr:not([size]){
 }
 
 .creato-john li{
-  flex-basis: 15%;
-  padding-right: 30px;
+  flex-basis: 16%;
+  padding-right: 20px;
 }
 
 .creato-john li img{
@@ -347,8 +347,8 @@ hr:not([size]){
 }
 
 .artist-popolar li{
-  flex-basis: 15%;
-  padding-right: 30px;
+  flex-basis: 16%;
+  padding-right: 20px;
 }
 
 .artist-popolar li img{
