@@ -89,6 +89,10 @@ h6{
   padding-left: 14px;
 }
 
+.linea-verde-nav a:hover{
+  color: white;
+}
+
 .misura ul{
   list-style-type: none;
 }
@@ -101,6 +105,7 @@ h6{
   margin-bottom: 10px;
 }
 
+
 /* Playlist */
 
 .bordo-piu{
@@ -112,10 +117,23 @@ h6{
   color: black;
 }
 
+.hover-white a:hover{
+  color: white;
+}
+
+.bordo-piu:hover{
+  border-color: white;
+  background-color: white;
+}
+
 /* 3 parte nav */
 
 .playlist-text a{
   display: block;
+}
+
+.playlist-text a:hover{
+  color: white;
 }
 
 .playlist-text ul{
@@ -143,6 +161,10 @@ hr:not([size]){
 
 .nav-basso ul li{
   display: inline-block;
+}
+
+.nav-basso a:hover{
+  color: white;
 }
 
 #text-john{
@@ -187,6 +209,9 @@ hr:not([size]){
   font-size: 14px;
 }
 
+#upgrade-text:hover{
+  font-size: 16px;
+}
 /* Navigazione menu */
 
 .pad-footer-top{
@@ -220,10 +245,15 @@ hr:not([size]){
   font-size: 14px;
 }
 
+.menu-nav-principale li a:hover{
+  color: white;
+}
+
 .linea-verde-menu:hover{
   position: relative;
   width: 150px;
   text-align: center;
+
 }
 
 .linea-verde-menu span{
@@ -415,6 +445,15 @@ hr:not([size]){
   padding-left: 30px;
 }
 
+.hover-brano:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.padding-can-fix i:hover{
+  color: white;
+}
+
 /* Play */
 
 .play{
@@ -449,7 +488,7 @@ hr:not([size]){
   display: block;
   position: relative;
   border-radius: 30px;
-  height: 4px;
+  height: 5px;
   width: 20vw;
   margin: 5px 5px;
 }
@@ -460,9 +499,24 @@ hr:not([size]){
   left: 0;
   background: white;
   width: 4vw;
-  height: 4px;
+  height: 5px;
   border-radius: 30px;
 }
+
+
+.play-linea-bianca:hover{
+  background: green;
+}
+
+.play-pallino-bianco{
+  position: absolute;
+  bottom: 18px;
+  left: 35px;
+  color: white;
+  width: 4vw;
+  height: 5px;
+}
+
 
 .timer h6{
   color: white;
@@ -479,6 +533,10 @@ hr:not([size]){
 
 .fix-circle i{
   font-size: 30px;
+}
+
+.fix-circle i:hover{
+  font-size: 35px;
 }
 
 /* Volume */
@@ -529,4 +587,17 @@ hr:not([size]){
   width: 1.5vw;
   height: 4px;
   border-radius: 30px;
+}
+
+.volume-linea-bianca:hover{
+  background: green;
+}
+
+.volume-pallino-bianco{
+  position: absolute;
+  bottom: 0;
+  left: 23px;
+  top: -4px;
+  color: white;
+
 }
