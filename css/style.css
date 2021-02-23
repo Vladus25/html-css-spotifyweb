@@ -146,11 +146,9 @@ h6{
 
 .playlist-text ul{
   display: flex;
-  flex-shrink: 1;
   flex-direction: column;
   list-style-type: none;
   overflow-y: auto;
-  height: 28vh;
 }
 
 .colonna-nav{
