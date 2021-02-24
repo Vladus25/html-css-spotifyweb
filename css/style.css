@@ -20,7 +20,6 @@ h6{
   margin-bottom: 0;
 }
 
-
 /* Colore */
 
 .white{
@@ -51,6 +50,12 @@ h6{
 
 .padding-nav{
   padding: 10px 20px;
+}
+
+.colonna-nav{
+  display:flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
 }
 
 #img-logo{
@@ -109,7 +114,6 @@ h6{
   margin-bottom: 10px;
 }
 
-
 /* Playlist */
 
 .bordo-piu{
@@ -134,12 +138,10 @@ h6{
   background-color: white;
 }
 
-/* 3 parte nav */
-
 .playlist-text{
   display: flex;
   overflow: hidden;
-  flex-direction:column;
+  flex-direction: column;
   flex-grow: 1;
   min-height: 190px;
 }
@@ -152,12 +154,6 @@ h6{
   overflow: auto;
 }
 
-.colonna-nav{
-  display:flex;
-  flex-direction: column;
-  height: calc(100vh - 100px);
-}
-
 hr:not([size]){
   height: 2px;
 }
@@ -168,7 +164,6 @@ hr:not([size]){
   border-radius: 50%;
   padding: 9px;
 }
-
 
 .nav-basso ul li{
   display: inline-block;
@@ -372,7 +367,6 @@ hr:not([size]){
 .play-over:hover .play-absolute {
   opacity: 1;
 }
-
 
 .play-absolute {
   position: absolute;
