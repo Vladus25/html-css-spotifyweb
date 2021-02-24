@@ -137,7 +137,11 @@ h6{
 /* 3 parte nav */
 
 .playlist-text{
+  display: flex;
+  overflow: hidden;
+  flex-direction:column;
   flex-grow: 1;
+  min-height: 190px;
 }
 
 .playlist-text a:hover{
@@ -145,13 +149,8 @@ h6{
 }
 
 .playlist-text ul{
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  overflow-y: auto;
-  
+  overflow: auto;
 }
-
 
 .colonna-nav{
   display:flex;
@@ -277,8 +276,6 @@ hr:not([size]){
   height: 3px;
   border-radius: 30px;
 }
-
-
 
 /* Recently played */
 
