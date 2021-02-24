@@ -149,7 +149,9 @@ h6{
   flex-direction: column;
   list-style-type: none;
   overflow-y: auto;
+  
 }
+
 
 .colonna-nav{
   display:flex;
