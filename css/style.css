@@ -212,17 +212,18 @@ hr:not([size]){
   padding: 10px 30px;
   color: white;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #upgrade-text:hover{
-  font-size: 16px;
+  font-size: 18px;
+  transition: 0.4s;
 }
 
 /* Navigazione menu */
 
 .pad-footer-top{
-  padding-top:30px;
+  padding-top: 20px;
 }
 
 .pad-footer-bottom{
@@ -233,7 +234,6 @@ hr:not([size]){
   display: flex;
   justify-content: center;
   padding-top: 105px;
-  padding-bottom: 10px;
   flex-wrap: wrap;
   line-height: 50px;
 }
@@ -248,8 +248,8 @@ hr:not([size]){
 .menu-nav-principale li a{
   text-decoration: none;
   color: rgb(163, 163, 163);
-  padding: 0 10px;
   font-weight: bold;
+  padding: 0 10px;
   font-size: 14px;
 }
 
@@ -377,7 +377,7 @@ hr:not([size]){
   right: 0;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: .3s ease;
+  transition: 0.8s;
   cursor: pointer;
 }
 
@@ -547,7 +547,8 @@ hr:not([size]){
 }
 
 .fix-circle i:hover{
-  font-size: 35px;
+  font-size: 40px;
+  transition: 0.5s;
 }
 
 /* Volume */

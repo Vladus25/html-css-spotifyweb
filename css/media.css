@@ -110,3 +110,9 @@
   }
 
 }
+
+@media screen and (max-height: 180px){
+  #upgrade-text{
+    display: none;
+  }
+}
